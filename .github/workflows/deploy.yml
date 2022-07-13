@@ -34,6 +34,6 @@ jobs:
           allow_empty_commit: false
           build_dir: dist
           commit_message: "Auto deploy for commit ${{ steps.short-sha.outputs.sha }}"
-          fqdn: f.moefox.tech
+          fqdn: mkf.moefox.tech
         env:
           GITHUB_TOKEN: ${{ secrets.GHTOKEN }}
