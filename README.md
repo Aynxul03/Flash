@@ -1,4 +1,4 @@
-[Flash MoKee](https://flash.mokeedev.com)
+[MoeFlash](https://f.moefox.tech)
 ==========
 
 ADB Sideload via browser.
@@ -18,17 +18,17 @@ npm run build
 
 ## Contribute
 
-As part of the MoKee Open Source Project, this repository accepts commits
+As part of the MoKee Open Source Project, this repository (NOT the one you're looking at) accepts commits
 from our [Gerrit Code Review](https://mokeedev.review/) platform.
 
 ```sh
-# setup
+~~# setup
 scp -p -P 29418 YOURNAME@mokeedev.review:hooks/commit-msg $(git rev-parse --git-dir)/hooks/
 git remote add review ssh://YOURNAME@mokeedev.review:29418/MoKee/flash
 
 # submit
 git push review HEAD:refs/for/master
-```
+~~```
 
 ## Localization
 
